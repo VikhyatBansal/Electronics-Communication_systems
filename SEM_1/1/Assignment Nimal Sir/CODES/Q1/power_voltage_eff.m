@@ -1,0 +1,5 @@
+R1= 120; % NEW EFFECTIVE RESISTOR
+V= 0:240; % VOLTAGE
+P= (V.^2)/R1; % POWER
+plot(V,P); % PLOTING GRAPH BETWEEN VOLTAGE AND POWER
+xlabel('VOLTAGE (V)'), ylabel('POWER (P)'), title('POWER-VOLTAGE'), grid on

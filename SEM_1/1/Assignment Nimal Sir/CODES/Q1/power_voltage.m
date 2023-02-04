@@ -1,0 +1,5 @@
+R= 100; % RESISTANCE
+V= 0:240; % VOLTAGE
+P= (V.^2)/R; % POWER
+plot(V,P); % PLOTING GRAPH BETWEEN VOLTAGE AND POWER
+xlabel('VOLTAGE (V)'), ylabel('POWWER (P)'), title('POWER-VOLTAGE'),grid on
